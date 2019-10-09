@@ -5,7 +5,7 @@ import fun_with_collections.sort_and_search_array as basic_list_exception
 
 class MyTestCase(unittest.TestCase):
     def test_search_array(self):
-        self.assertFalse(basic_list_exception.search_array([5, -1, 6, 3, 8, 9, 4, 10], -1))
+        self.assertFalse(basic_list_exception.search_array([5, -1, 3, 6, 8, 9, 4, 10], -1))
 
 
 def test_sort_array(self):
